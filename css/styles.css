@@ -1,6 +1,19 @@
 /* SCREEN MEDIA FOR PHONE */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
 
+  .profilinstruktur-desc {
+    text-align: center;
+    align-self: center;
+  }
+
+  .profilinstruktur-image-small {
+    display: block;
+  }
+
+  .profilinstruktur-image-large {
+    display: none;
+  }
+
   .logo-garuda {
     margin-bottom: 2rem;
     width: 20%;
@@ -43,6 +56,19 @@
 /* SCREEN MEDIA FOR TABLET - WINDOWS */
 @media screen and (min-device-width: 768px) and (max-device-width: 2560px) {
 
+  .profilinstruktur-desc {
+    text-align: left;
+    align-self: center;
+  }
+
+  .profilinstruktur-image-small {
+    display: none;
+  }
+
+  .profilinstruktur-image-large {
+    display: block;
+  }
+
   .logo-garuda {
     margin-bottom: 0;
     width: 30%;
@@ -82,6 +108,11 @@
 .dark-section {
   background-color: #A5111C;
   padding: 5% 8%;
+}
+
+.dark-section-end {
+  background-color: #A5111C;
+  padding: 2% 0;
 }
 
 .light-section {
@@ -179,10 +210,6 @@
 
 .title-text p {
   display: inline-block;
-}
-
-.title-text div p {
-  background-color: #A5111C;
 }
 
 .title-body-paragraph {
@@ -371,11 +398,67 @@
 }
 
 /* COPYRIGHT */
-.copyright-heading p {
+.copyright-heading-light p {
   margin-bottom: 0;
   text-align: center;
   font-family: "Rubik";
   font-weight: 300;
   color: #2D2D2D;
   font-size: 2rem;
+}
+
+.copyright-heading-dark p {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 300;
+  color: #FFF;
+  font-size: 2rem;
+}
+
+
+
+
+/* PROFIL INSTRUKTUR */
+.profilinstruktur-box {
+  padding: 1rem 1rem;
+  margin: 5% 0;
+}
+
+.profilinstruktur {
+  margin: 2rem 0;
+}
+
+.nama {
+  font-family: "Rubik";
+  padding: 1rem 1rem;
+  background: #A5111C;
+  display:inline-block;
+  color: #FFF;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.prestasi {
+  font-family: "Rubik";
+  padding: 1rem 1rem;
+  margin: 0;
+  background: #A5111C;
+  display:block;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.instruktur-1, .instruktur-3 {
+  position: relative;
+  left: -30px;
+  opacity: 0;
+}
+
+.instruktur-2 {
+  position: relative;
+  right: -30px;
+  opacity: 0;
 }
