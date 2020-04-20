@@ -1,0 +1,381 @@
+/* SCREEN MEDIA FOR PHONE */
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+
+  .logo-garuda {
+    margin-bottom: 2rem;
+    width: 20%;
+  }
+
+  .title-body p {
+    font-size: 1rem;
+  }
+
+  .title-body-paragraph {
+    font-size: 2rem;
+  }
+
+  .p1 {
+    position: relative;
+    left: 0;
+    opacity: 0;
+  }
+
+  .p2 {
+    position: relative;
+    right: 0;
+    opacity: 0;
+  }
+
+  .desc-prestasi p {
+    display: block;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 2rem 1rem;
+  }
+
+  .btn-prestasi {
+    width: 100%;
+    margin: 1rem 1rem 1rem 1rem;
+  }
+
+}
+
+/* SCREEN MEDIA FOR TABLET - WINDOWS */
+@media screen and (min-device-width: 768px) and (max-device-width: 2560px) {
+
+  .logo-garuda {
+    margin-bottom: 0;
+    width: 30%;
+  }
+
+  .title-body-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .p1 {
+    position: relative;
+    left: -60px;
+    opacity: 0;
+  }
+
+  .p2 {
+    position: relative;
+    right: -60px;
+    opacity: 0;
+  }
+
+  .desc-prestasi p {
+    display: inline-block;
+    text-align: left;
+    padding: 1rem 1rem;
+
+  }
+
+  .btn-prestasi {
+    width: auto;
+  }
+
+}
+
+/* ====================================================================================================== */
+
+.dark-section {
+  background-color: #A5111C;
+  padding: 5% 8%;
+}
+
+.light-section {
+  background-color: #FFD4D9;
+  padding: 5% 8%;
+}
+
+.light-section-prestasi {
+  background-color: #FFD4D9;
+  padding: 5% 0;
+}
+
+.light-section-end {
+  background-color: #FFD4D9;
+  padding: 2% 0;
+}
+
+.light-heading h2 {
+  font-family: 'Rubik';
+  font-weight: 900;
+  text-align: center;
+  color: #7F0816;
+  position: relative;
+  top: -30px;
+  opacity: 0;
+}
+
+.dark-heading h2 {
+  font-family: 'Rubik';
+  font-weight: 900;
+  text-align: center;
+  color: #FFD4D9;
+  position: relative;
+  top: -30px;
+  opacity: 0;
+}
+
+
+/* ====================================================================================================== */
+
+/* HOME */
+
+#title {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  padding: 2% 2%;
+}
+
+.background-dark-tint {
+  background-color: #7F0816;
+}
+
+.title-nav {
+  color: #F4F4F4;
+  font-family: 'Rubik';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+.dropdown-menu {
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: #A5111C;
+}
+
+.dropdown-item {
+  font-family: "Rubik";
+  font-weight: 300;
+  color: #F4F4F4;
+}
+
+.logo-garuda {
+  position: relative;
+  top: -20px;
+  opacity: 0;
+}
+
+.title-text {
+  height: auto;
+  align-self: center;
+}
+
+.title-text p {
+  display: inline-block;
+}
+
+.title-text div p {
+  background-color: #A5111C;
+}
+
+.title-body-paragraph {
+  color: #FFF;
+  padding: 1rem 1rem;
+  font-family: "Rubik";
+  font-weight: 300;
+  opacity: 0;
+}
+
+/* STRUKTUR */
+#struktur {
+  align-content: center;
+}
+
+.struktur-box {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.name {
+  margin-top: 1rem;
+  font-family: 'Rubik';
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.position {
+  margin-top: 0;
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.people {
+  padding: 1rem 1rem;
+}
+
+.people-1,.people-3,.people-5 {
+  position: relative;
+  top: -30px;
+  opacity: 0;
+}
+
+.people-2,.people-4 {
+  position: relative;
+  bottom: -30px;
+  opacity: 0;
+}
+
+/* PROGRAM KEGIATAN */
+.program-kegiatan-box {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.card {
+  margin: 1rem 1rem;
+}
+
+.card-header {
+  background: #FFD4D9;
+}
+
+.card-header p {
+  color: #A5111C;
+  font-family: "Rubik";
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.card-body {
+    font-family: "Rubik";
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.program-kegiatan-box.row {
+  text-align: center;
+}
+
+.program-1, .program-3, .program-5 {
+  opacity: 0;
+  top: -30px;
+}
+
+.program-2, .program-4 {
+  opacity: 0;
+  bottom: -30px;
+}
+
+/* PRESTASI */
+.prestasi-box {
+  text-align: center;
+}
+
+.desc-prestasi {
+  text-align: left;
+  align-self: center;
+}
+
+.desc-prestasi p {
+  padding: 1rem 1rem;
+  background: #7F0816;
+}
+
+.btn-prestasi {
+  display: block;
+  padding: 1rem 1rem;
+}
+
+.carousel-item {
+  padding: 2% 10%;
+}
+
+.prestasi-first {
+  opacity: 0;
+  top: -30px;
+}
+
+.gelar {
+  font-family: "Rubik";
+  font-weight: 900;
+  color: #FFF;
+  font-size: 1.2rem;
+}
+
+.kejuaraan {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+
+/* KONTAK */
+
+.kontak-logo {
+  text-align: center;
+  margin: 2% 0;
+  height: 50%;
+}
+
+.kontak-logo img {
+  margin: 2rem 2rem;
+}
+
+.kontak-1, .kontak-3 {
+  position: relative;
+  top: -30px;
+  opacity: 0;
+}
+
+.kontak-2, .kontak-4 {
+  position: relative;
+  bottom: -30px;
+  opacity: 0;
+}
+
+.kontak-box {
+  text-align: center;
+}
+
+.kontak-alamat {
+  position: relative;
+  bottom: -30px;
+  opacity: 0;
+  margin: 2% 0;
+  background: #FFD4D9;
+  display: inline-block;
+  padding: 1rem 2rem;
+  width: 75%;
+}
+
+.kontak-alamat h2 {
+  font-family: "Rubik";
+  font-weight: 900;
+}
+
+
+.kontak-alamat p {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/* COPYRIGHT */
+.copyright-heading p {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 300;
+  color: #2D2D2D;
+  font-size: 2rem;
+}
